@@ -65,18 +65,61 @@
 
       <section id="signup">
         <h2>Sign up for the Workshop</h2>
-        <b>Sign up now!</b>
         <form action="#">
           <fieldset>
-            <legend>Your Info</legend>
+            <legend>Your Info&#40;&#42; required&#41;</legend>
             <label for="first_name">* First Name</label>
-            <input type="text" name="first_name" value="" requred />
+            <input type="text" name="first_name" value="" reqiured /><br />
 
             <label for="last_name">* Last Name</label>
-            <input type="text" name="last_name" value="" requred />
+            <input type="text" name="last_name" value="" required /><br />
 
             <label for="email">* Email</label>
-            <input type="email" name="email" value="" requred />
+            <input type="email" name="email" value="" /><br />
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" value="" /><br />
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" value="" /><br />
+          </fieldset>
+          <br />
+
+          <fieldset>
+            <legend>Additional Info</legend>
+            <label for="hear_about">How did you hear about us?</label><br />
+            <select name="hear_about">
+              <option value="social_media">Social Media</option>
+              <option value="friend">Friend</option>
+              <option value="advertisement">Web Search</option>
+              <option value="other">
+                Cause I pwned your server. Why else&#63;
+              </option></select
+            ><br />
+            <br />
+
+            <fieldset>
+              <legend>Ticket type</legend>
+              <label for="ticket">General</label>
+              <input type="radio" name="ticket" value="" requred />
+
+              <label for="ticket">VIP</label>
+              <input type="radio" name="ticket" value="" requred />
+
+              <label for="ticket">Student</label>
+              <input type="radio" name="ticket" value="" requred />
+            </fieldset>
+            <br />
+
+            <label for="feedback"
+              >Questions or comments&#63; Let us know&#33;</label
+            ><br />
+            <textarea
+              name="feedback"
+              rows="5"
+              cols="80"
+              placeholder="Enter feedback here..."
+            ></textarea>
           </fieldset>
         </form>
       </section>
