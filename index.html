@@ -69,13 +69,13 @@
           <fieldset>
             <legend>Your Info&#40;&#42; required&#41;</legend>
             <label for="first_name">* First Name</label>
-            <input type="text" name="first_name" value="" reqiured /><br />
+            <input type="text" name="first_name" value="" reqirred /><br />
 
             <label for="last_name">* Last Name</label>
             <input type="text" name="last_name" value="" required /><br />
 
             <label for="email">* Email</label>
-            <input type="email" name="email" value="" /><br />
+            <input type="email" name="email" value="" required /><br />
 
             <label for="phone">Phone Number</label>
             <input type="tel" name="phone" value="" /><br />
@@ -101,13 +101,13 @@
             <fieldset>
               <legend>Ticket type</legend>
               <label for="ticket">General</label>
-              <input type="radio" name="ticket" value="" requred />
+              <input type="radio" name="ticket" value="" />
 
               <label for="ticket">VIP</label>
-              <input type="radio" name="ticket" value="" requred />
+              <input type="radio" name="ticket" value="" />
 
               <label for="ticket">Student</label>
-              <input type="radio" name="ticket" value="" requred />
+              <input type="radio" name="ticket" value="" />
             </fieldset>
             <br />
 
@@ -117,10 +117,12 @@
             <textarea
               name="feedback"
               rows="5"
-              cols="80"
+              cols="90"
               placeholder="Enter feedback here..."
             ></textarea>
           </fieldset>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
         </form>
       </section>
       <hr />
