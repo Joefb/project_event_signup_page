@@ -1,18 +1,38 @@
 body {
-  background-color: black;
+  background-color: #2a1c1c;
   color: white;
 }
 
-header {
-  position: relative;
-  width: 100%;
-  padding-bottom: 10%; /* Adjust based on image aspect ratio */
-  background: url("../assets/hack_the_web.jpg") no-repeat center;
-  background-size: cover;
-}
-
-.audiowide-regular {
+#header {
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
   font-style: normal;
+  position: relative;
+  padding-bottom: 10%;
+  background: url("../assets/hack_the_web.jpg") no-repeat center;
+  background-size: cover;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+#header-title {
+  font-size: 50px;
+  color: #27d22a;
+  margin-bottom: 0%;
+}
+
+#header-nav {
+  display: inline;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+a {
+  color: white;
+  color: #27d22a;
+  margin-left: 10px;
 }
