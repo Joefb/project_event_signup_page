@@ -3,14 +3,243 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>IoT Haxors Hangout</title>
-    <link href="css/style.css" rel="stylesheet" />
+    <title>IoT Haxors Workshop</title>
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <h1>IoT Haxors Workshop</h1>
 
-    <main></main>
+      <nav>
+        <a href="#event" aria-label="Go to current workshop section"
+          >Current Workshop</a
+        >
+        <a href="#signup" aria-label="Go to sigh up section">Sign up</a>
+        <a href="#calendar" aria-label="Go to Upcoming workshops section"
+          >Upcoming Workshops</a
+        >
+        <a href="#contact" aria-label="Go to contact us section">Contact Us</a>
+      </nav>
+      <hr />
+    </header>
 
-    <footer></footer>
+    <main>
+      <article>
+        <section id="event">
+          <h2>About the Workshop</h2>
+          <h3>Finding UART and Getting a Shell</h3>
+          <b>Event Time and Location:</b>
+          <ul>
+            <li>Date: Saturday, October 4th, 2025</li>
+            <li>Time: 7:00 PM - 10:00 PM</li>
+            <li>Location: Tech Hub, 123 Main St, Anytown, USA</li>
+          </ul>
+
+          <b>What we will do</b>
+          <p>
+            In this workshop we will explore the PCB, identify different
+            components, and show how to locate different interfaces and test to
+            see if its UART. A multimeter will be used so if you already have
+            one bring it! Dont have multimetere? Thats ok! We will have some on
+            hand to share. After we find UART get ready to solder! We will
+            solder on pin headers so we can access that sweet sweet shell. We
+            will then use tools like a hydrabus, bus pirate, or a FTDI to
+            connect to the UART get a shell, and haxor the device! After we get
+            a shell we will discuss different methods for finding vulrabilities
+            and how to exploit them. So buckle up, grab your soldering iron, and
+            get ready to haxor some IoT devices!
+          </p>
+
+          <b>Here are a list of skills you can add to your tool belt:</b>
+          <ul>
+            <li>How to identify different components on a PCB</li>
+            <li>How to find UART on a PCB</li>
+            <li>How to solder pin headers to access UART</li>
+            <li>How to connect to UART using different tools</li>
+            <li>How to get a shell.</li>
+          </ul>
+        </section>
+        <img
+          src="./assets/iot_desk.jpg"
+          alt="picture of IoT devices on a desk"
+        />
+      </article>
+      <hr />
+
+      <section id="signup">
+        <h2>Sign up for the Workshop</h2>
+        <form action="">
+          <fieldset>
+            <legend>Your Info&#40;&#42; required&#41;</legend>
+            <label for="first_name">* First Name</label>
+            <input type="text" name="first_name" value="" required /><br />
+
+            <label for="last_name">* Last Name</label>
+            <input type="text" name="last_name" value="" required /><br />
+
+            <label for="email">* Email</label>
+            <input type="email" name="email" value="" required /><br />
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" value="" /><br />
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" value="" /><br />
+          </fieldset>
+          <br />
+
+          <fieldset>
+            <legend>Additional Info</legend>
+            <label for="hear_about">How did you hear about us?</label><br />
+            <select name="hear_about">
+              <option value="social_media">Social Media</option>
+              <option value="friend">Friend</option>
+              <option value="advertisement">Web Search</option>
+              <option value="other">
+                Cause I pwned your server. Why else&#63;
+              </option></select
+            ><br />
+            <br />
+
+            <fieldset>
+              <legend>Ticket type</legend>
+              <label for="ticket">General</label>
+              <input type="radio" name="ticket" value="" />
+
+              <label for="ticket">VIP</label>
+              <input type="radio" name="ticket" value="" />
+
+              <label for="ticket">Student</label>
+              <input type="radio" name="ticket" value="" />
+            </fieldset>
+            <br />
+
+            <label for="feedback"
+              >Questions or comments&#63; Let us know&#33;</label
+            ><br />
+            <textarea
+              name="feedback"
+              rows="5"
+              cols="90"
+              placeholder="Enter feedback here..."
+            ></textarea>
+          </fieldset>
+
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+      <hr />
+
+      <section id="calendar">
+        <h2>Join us at our Upcoming Events!</h2>
+
+        <table>
+          <caption>
+            <b>Dates and Times for October</b>
+          </caption>
+
+          <thead>
+            <tr>
+              <th scope="col">Sun</th>
+              <th scope="col">Mon</th>
+              <th scope="col">Tue</th>
+              <th scope="col">Wed</th>
+              <th scope="col">Thu</th>
+              <th scope="col">Fri</th>
+              <th scope="col">Sat</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td scope="row"></td>
+              <td scope="row"></td>
+              <td scope="row"></td>
+              <td scope="row">1</td>
+              <td scope="row">2</td>
+              <td scope="row">3</td>
+              <td scope="row">4<br /><small>7pm: Finding UART</small></td>
+            </tr>
+
+            <tr>
+              <td scope="row">5</td>
+              <td scope="row">6</td>
+              <td scope="row">7</td>
+              <td scope="row">8</td>
+              <td scope="row">9</td>
+              <td scope="row">10</td>
+              <td scope="row">11<br /><small>7pm: Learn to Solder</small></td>
+            </tr>
+
+            <tr>
+              <td scope="row">12</td>
+              <td scope="row">13</td>
+              <td scope="row">14</td>
+              <td scope="row">15</td>
+              <td scope="row">16</td>
+              <td scope="row">17</td>
+              <td scope="row">18<br /><small>7pm: Dumping Firmware</small></td>
+            </tr>
+
+            <tr>
+              <td scope="row">19</td>
+              <td scope="row">20</td>
+              <td scope="row">21</td>
+              <td scope="row">22</td>
+              <td scope="row">23</td>
+              <td scope="row">24</td>
+              <td scope="row">25<br /><small>7pm: Hacking UPNP</small></td>
+            </tr>
+
+            <tr>
+              <td scope="row">26</td>
+              <td scope="row">27</td>
+              <td scope="row">28</td>
+              <td scope="row">29</td>
+              <td scope="row">30</td>
+              <td scope="row">30</td>
+              <td scope="row">1<br /><small>7pm: Finding JTAG </small></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <hr />
+    </main>
+
+    <footer id="contact">
+      <h2>Contact Us</h2>
+      <nav>
+        <a
+          href="mailto:joefb-mail@protonmail.me"
+          title="email"
+          target="_blank"
+          aria-label="Send email"
+          >Email us</a
+        >
+        <a
+          href="https://github.com/Joefb"
+          title="github"
+          target="_blank"
+          aria-label="Go to github page"
+          >Github</a
+        >
+        <a
+          href="https://www.linkedin.com/in/joe-f-burgess"
+          title="linkedin"
+          target="_blank"
+          aria-lable="Go to linkedin page"
+          >Linkedin</a
+        >
+        <a
+          href="https://x.com/JFBurgess"
+          title="X"
+          target="_blank"
+          aria-lable="Go to X page"
+          >X</a
+        >
+      </nav>
+    </footer>
+    <hr />
   </body>
 </html>
