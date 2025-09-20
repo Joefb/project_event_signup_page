@@ -11,18 +11,21 @@
       <h1>IoT Haxors Workshop</h1>
 
       <nav>
-        <a href="#">Home</a>
-        <a href="#event">Current Workshop</a>
-        <a href="#">Sign up</a>
-        <a href="#">Upcoming Workshops</a>
-        <a href="#">IoT News</a>
+        <a href="#event" aria-label="Go to current workshop section"
+          >Current Workshop</a
+        >
+        <a href="#signup" aria-label="Go to sigh up section">Sign up</a>
+        <a href="#event" aria-label="Go to Upcoming workshops section"
+          >Upcoming Workshops</a
+        >
+        <a href="#contact" aria-label="Go to contact us section">Contact Us</a>
       </nav>
       <hr />
     </header>
 
     <main>
-      <article id="event">
-        <section id="about">
+      <article>
+        <section id="event">
           <h2>About the Workshop</h2>
           <h3>Finding UART and Getting a Shell</h3>
           <b>Event Time and Location:</b>
@@ -121,13 +124,21 @@
               placeholder="Enter feedback here..."
             ></textarea>
           </fieldset>
-          <button type="submit">Submit</button>
+          <h1 popover id="thankyou">Form Submitted! We will see you there!</h1>
+          <button popovertarget="thankyou" popovertargetaction="show">
+            Submit
+          </button>
           <button type="reset">Reset</button>
         </form>
       </section>
       <hr />
+      <h1 popover id="myheader">Hello</h1>
 
-      <section id="">
+      <button popovertarget="myheader" popovertargetaction="show">
+        Show popover
+      </button>
+
+      <section id="calendar">
         <h2>Join us at our Upcoming Events!</h2>
 
         <table>
@@ -203,12 +214,37 @@
       <hr />
     </main>
 
-    <footer>
-      <h2>Footer</h2>
+    <footer id="contact">
+      <h2>Contact Us</h2>
       <nav>
-        <a href="#">Contact me</a>
-        <a href="#">About</a>
-        <a href="#">Home</a>
+        <a
+          href="mailto:joefb-mail@protonmail.me"
+          title="email"
+          target="_blank"
+          aria-label="Send email"
+          >Email us</a
+        >
+        <a
+          href="https://github.com/Joefb"
+          title="github"
+          target="_blank"
+          aria-label="Go to github page"
+          >Github</a
+        >
+        <a
+          href="https://www.linkedin.com/in/joe-f-burgess"
+          title="linkedin"
+          target="_blank"
+          aria-lable="Go to linkedin page"
+          >Linkedin</a
+        >
+        <a
+          href="https://x.com/JFBurgess"
+          title="X"
+          target="_blank"
+          aria-lable="Go to X page"
+          >X</a
+        >
       </nav>
     </footer>
     <hr />
