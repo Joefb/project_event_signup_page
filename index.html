@@ -15,7 +15,7 @@
           >Current Workshop</a
         >
         <a href="#signup" aria-label="Go to sigh up section">Sign up</a>
-        <a href="#event" aria-label="Go to Upcoming workshops section"
+        <a href="#calendar" aria-label="Go to Upcoming workshops section"
           >Upcoming Workshops</a
         >
         <a href="#contact" aria-label="Go to contact us section">Contact Us</a>
@@ -68,11 +68,11 @@
 
       <section id="signup">
         <h2>Sign up for the Workshop</h2>
-        <form action="#">
+        <form action="">
           <fieldset>
             <legend>Your Info&#40;&#42; required&#41;</legend>
             <label for="first_name">* First Name</label>
-            <input type="text" name="first_name" value="" reqirred /><br />
+            <input type="text" name="first_name" value="" required /><br />
 
             <label for="last_name">* Last Name</label>
             <input type="text" name="last_name" value="" required /><br />
@@ -124,19 +124,12 @@
               placeholder="Enter feedback here..."
             ></textarea>
           </fieldset>
-          <h1 popover id="thankyou">Form Submitted! We will see you there!</h1>
-          <button popovertarget="thankyou" popovertargetaction="show">
-            Submit
-          </button>
+
+          <button type="submit">Submit</button>
           <button type="reset">Reset</button>
         </form>
       </section>
       <hr />
-      <h1 popover id="myheader">Hello</h1>
-
-      <button popovertarget="myheader" popovertargetaction="show">
-        Show popover
-      </button>
 
       <section id="calendar">
         <h2>Join us at our Upcoming Events!</h2>
