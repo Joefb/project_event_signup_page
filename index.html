@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>IoT Haxors Workshop</title>
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Saira+Stencil+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h1>IoT Haxors Workshop</h1>
+    <header id="header" class="audiowide-regular">
+      <h1 id="header-title">IoT Haxors Workshop</h1>
 
-      <nav>
+      <nav id="header-nav">
         <a href="#event" aria-label="Go to current workshop section"
           >Current Workshop</a
         >
@@ -20,23 +26,21 @@
         >
         <a href="#contact" aria-label="Go to contact us section">Contact Us</a>
       </nav>
-      <hr />
     </header>
 
-    <main>
+    <main class="content">
       <article>
-        <section id="event">
-          <h2>About the Workshop</h2>
-          <h3>Finding UART and Getting a Shell</h3>
-          <b>Event Time and Location:</b>
-          <ul>
+        <section id="event" class="section-temp">
+          <h2 id="about-header">About the Workshop</h2>
+          <h3>Event Time and Location:</h3>
+          <ul id="event-time">
             <li>Date: Saturday, October 4th, 2025</li>
             <li>Time: 7:00 PM - 10:00 PM</li>
             <li>Location: Tech Hub, 123 Main St, Anytown, USA</li>
           </ul>
+          <h3 id="">Finding UART and Getting a Shell</h3>
 
-          <b>What we will do</b>
-          <p>
+          <p id="event-description">
             In this workshop we will explore the PCB, identify different
             components, and show how to locate different interfaces and test to
             see if its UART. A multimeter will be used so if you already have
@@ -50,7 +54,7 @@
             get ready to haxor some IoT devices!
           </p>
 
-          <b>Here are a list of skills you can add to your tool belt:</b>
+          <h3>Here are a list of skills you can add to your tool belt:</h3>
           <ul>
             <li>How to identify different components on a PCB</li>
             <li>How to find UART on a PCB</li>
@@ -58,32 +62,37 @@
             <li>How to connect to UART using different tools</li>
             <li>How to get a shell.</li>
           </ul>
+          <img
+            src="./assets/iot_desk.jpg"
+            alt="picture of IoT devices on a desk"
+            class="event-image"
+          />
+          <img
+            src="./assets/whoami-root.jpg"
+            alt="picture of laptop with devices on a desk"
+            class="event-image"
+          />
         </section>
-        <img
-          src="./assets/iot_desk.jpg"
-          alt="picture of IoT devices on a desk"
-        />
       </article>
-      <hr />
 
-      <section id="signup">
-        <h2>Sign up for the Workshop</h2>
+      <section id="signup" class="section-temp">
+        <h2 id="signup-title">Sign up for the Workshop</h2>
         <form action="">
           <fieldset>
             <legend>Your Info&#40;&#42; required&#41;</legend>
-            <label for="first_name">* First Name</label>
+            <label for="first_name" class="signup-info">* First Name</label>
             <input type="text" name="first_name" value="" required /><br />
 
-            <label for="last_name">* Last Name</label>
+            <label for="last_name" class="signup-info">* Last Name</label>
             <input type="text" name="last_name" value="" required /><br />
 
-            <label for="email">* Email</label>
+            <label for="email" class="signup-info">* Email</label>
             <input type="email" name="email" value="" required /><br />
 
-            <label for="phone">Phone Number</label>
+            <label for="phone" class="signup-info">Phone Number</label>
             <input type="tel" name="phone" value="" /><br />
 
-            <label for="dob">Date of Birth</label>
+            <label for="dob" class="signup-info">Date of Birth</label>
             <input type="date" name="dob" value="" /><br />
           </fieldset>
           <br />
@@ -129,12 +138,11 @@
           <button type="reset">Reset</button>
         </form>
       </section>
-      <hr />
 
-      <section id="calendar">
-        <h2>Join us at our Upcoming Events!</h2>
+      <section id="calendar" class="section-temp">
+        <h2 id="cal-header">Upcoming Events</h2>
 
-        <table>
+        <table id="cal-table">
           <caption>
             <b>Dates and Times for October</b>
           </caption>
@@ -166,10 +174,10 @@
               <td scope="row">5</td>
               <td scope="row">6</td>
               <td scope="row">7</td>
-              <td scope="row">8</td>
+              <td scope="row">8<br /><small>7pm: Learn to Solder</small></td>
               <td scope="row">9</td>
               <td scope="row">10</td>
-              <td scope="row">11<br /><small>7pm: Learn to Solder</small></td>
+              <td scope="row">11</td>
             </tr>
 
             <tr>
@@ -178,18 +186,18 @@
               <td scope="row">14</td>
               <td scope="row">15</td>
               <td scope="row">16</td>
-              <td scope="row">17</td>
-              <td scope="row">18<br /><small>7pm: Dumping Firmware</small></td>
+              <td scope="row">17<br /><small>7pm: Dumping Firmware</small></td>
+              <td scope="row">18</td>
             </tr>
 
             <tr>
               <td scope="row">19</td>
-              <td scope="row">20</td>
+              <td scope="row">20<br /><small>7pm: Hacking UPNP</small></td>
               <td scope="row">21</td>
               <td scope="row">22</td>
               <td scope="row">23</td>
               <td scope="row">24</td>
-              <td scope="row">25<br /><small>7pm: Hacking UPNP</small></td>
+              <td scope="row">25</td>
             </tr>
 
             <tr>
@@ -204,11 +212,10 @@
           </tbody>
         </table>
       </section>
-      <hr />
     </main>
 
     <footer id="contact">
-      <h2>Contact Us</h2>
+      <h2 id="footer-header">Contact Us</h2>
       <nav>
         <a
           href="mailto:joefb-mail@protonmail.me"
