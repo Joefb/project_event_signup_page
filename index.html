@@ -65,12 +65,7 @@
           <img
             src="./assets/iot_desk.jpg"
             alt="picture of IoT devices on a desk"
-            class="event-image"
-          />
-          <img
-            src="./assets/whoami-root.jpg"
-            alt="picture of laptop with devices on a desk"
-            class="event-image"
+            id="event-image"
           />
         </section>
       </article>
@@ -79,7 +74,7 @@
         <section id="signup" class="section-temp">
           <h2 id="signup-title">Sign up for the Workshop</h2>
           <form action="">
-            <fieldset>
+            <fieldset id="user-info">
               <legend>Your Info&#40;&#42; required&#41;</legend>
               <label for="first_name" class="signup-info">* First Name</label>
               <input type="text" name="first_name" value="" required /><br />
@@ -96,6 +91,13 @@
               <label for="dob" class="signup-info">Date of Birth</label>
               <input type="date" name="dob" value="" /><br />
             </fieldset>
+            <div id="signup-img-div">
+              <img
+                src="./assets/whoami-root.jpg"
+                alt="picture of laptop with devices on a desk"
+                id="signup-image"
+              />
+            </div>
             <br />
 
             <fieldset>

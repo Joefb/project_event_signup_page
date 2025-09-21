@@ -71,15 +71,15 @@ button:hover {
   cursor: pointer;
 }
 
-.event-image {
-  max-width: 45%;
-  height: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 40px;
-  object-fit: cover;
-  border-radius: 10px;
-}
+/* .event-image { */
+/*   max-width: 45%; */
+/*   height: 300px; */
+/*   display: inline-block; */
+/*   vertical-align: top; */
+/*   margin: 0 40px; */
+/*   object-fit: cover; */
+/*   border-radius: 10px; */
+/* } */
 
 /* fonts */
 .saira-stencil-one-regular {
@@ -148,11 +148,20 @@ textarea {
   margin-top: 0px;
 }
 
+#event-image {
+  max-width: 100%;
+  height: 400px;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
 /* Signup Section  */
 #signup-title {
   color: #27d22a;
   margin-bottom: 0px;
   padding-top: 20px;
+  width: 400px;
 }
 
 .signup-info {
@@ -161,8 +170,29 @@ textarea {
   text-align: left;
 }
 
+#signup {
+  position: relative;
+}
+
 input[type="radio"] {
   accent-color: green;
+}
+#user-info {
+  display: inline-block;
+}
+
+#signup-img-div {
+  position: absolute;
+  left: 60%;
+  right: 40%;
+  top: 10px;
+  bottom: 0;
+}
+
+#signup-image {
+  width: 250px;
+  height: 240px;
+  border-radius: 10px;
 }
 
 /* Calendar Section */
