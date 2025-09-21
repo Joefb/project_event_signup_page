@@ -30,6 +30,26 @@ h3 {
   color: #27d22a;
 }
 
+legend {
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+label {
+}
+input {
+  display: inline-block;
+  background-color: #96f2ad;
+}
+
+select {
+  background-color: #96f2ad;
+}
+
+fieldset {
+  border-color: black;
+}
 /* fonts */
 .saira-stencil-one-regular {
   font-family: "Saira Stencil One", sans-serif;
@@ -37,10 +57,20 @@ h3 {
   font-style: normal;
 }
 
-.audiowide-regular {
+.audiowide {
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+/* Classes */
+
+.section-temp {
+  background-color: #402a2a;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #167818;
 }
 
 /* Header Section */
@@ -67,15 +97,7 @@ h3 {
   display: inline;
 }
 
-/* Event Section */
-#event {
-  background-color: #402a2a;
-  font-family: "Audiowide", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #167818;
-}
-
+/* About Workshop sectios  */
 #about-header {
   margin-top: 0px;
   padding-top: 20px;
@@ -87,4 +109,16 @@ h3 {
 
 #event-description {
   margin-top: 0px;
+}
+
+/* Signup Section  */
+#signup-title {
+  color: #27d22a;
+  margin-bottom: 0px;
+}
+
+.signup-info {
+  float: left;
+  width: 140px;
+  text-align: left;
 }

@@ -30,7 +30,7 @@
 
     <main class="content">
       <article>
-        <section id="event">
+        <section id="event" class="section-temp">
           <h2 id="about-header">About the Workshop</h2>
           <h3>Event Time and Location:</h3>
           <ul id="event-time">
@@ -68,26 +68,25 @@
           />
         </section>
       </article>
-      <hr />
 
-      <section id="signup">
-        <h2>Sign up for the Workshop</h2>
+      <section id="signup" class="section-temp">
+        <h2 id="signup-title">Sign up for the Workshop</h2>
         <form action="">
           <fieldset>
             <legend>Your Info&#40;&#42; required&#41;</legend>
-            <label for="first_name">* First Name</label>
+            <label for="first_name" class="signup-info">* First Name</label>
             <input type="text" name="first_name" value="" required /><br />
 
-            <label for="last_name">* Last Name</label>
+            <label for="last_name" class="signup-info">* Last Name</label>
             <input type="text" name="last_name" value="" required /><br />
 
-            <label for="email">* Email</label>
+            <label for="email" class="signup-info">* Email</label>
             <input type="email" name="email" value="" required /><br />
 
-            <label for="phone">Phone Number</label>
+            <label for="phone" class="signup-info">Phone Number</label>
             <input type="tel" name="phone" value="" /><br />
 
-            <label for="dob">Date of Birth</label>
+            <label for="dob" class="signup-info">Date of Birth</label>
             <input type="date" name="dob" value="" /><br />
           </fieldset>
           <br />
