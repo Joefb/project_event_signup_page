@@ -13,6 +13,10 @@ a {
   margin-left: 10px;
 }
 
+a:hover {
+  color: #167818;
+}
+
 p {
   color:;
 }
@@ -60,6 +64,11 @@ button {
   font-style: normal;
   border-radius: 10px;
   margin: 0 5px;
+}
+
+button:hover {
+  background-color: #27d22a;
+  cursor: pointer;
 }
 
 .event-image {
@@ -154,7 +163,6 @@ textarea {
 
 input[type="radio"] {
   accent-color: green;
-  background-color: blue;
 }
 
 /* Calendar Section */
