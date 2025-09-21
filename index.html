@@ -38,20 +38,20 @@
             <li>Time: 7:00 PM - 10:00 PM</li>
             <li>Location: Tech Hub, 123 Main St, Anytown, USA</li>
           </ul>
-          <h3 id="">Finding UART and Getting a Shell</h3>
+          <h3>Finding UART and Getting a Shell</h3>
 
           <p id="event-description">
             In this workshop we will explore the PCB, identify different
             components, and show how to locate different interfaces and test to
             see if its UART. A multimeter will be used so if you already have
-            one bring it! Dont have multimetere? Thats ok! We will have some on
+            one bring it! Don't have multimeter? That's ok! We will have some on
             hand to share. After we find UART get ready to solder! We will
             solder on pin headers so we can access that sweet sweet shell. We
             will then use tools like a hydrabus, bus pirate, or a FTDI to
             connect to the UART get a shell, and haxor the device! After we get
-            a shell we will discuss different methods for finding vulrabilities
-            and how to exploit them. So buckle up, grab your soldering iron, and
-            get ready to haxor some IoT devices!
+            a shell we will discuss different methods for finding
+            vulnerabilities and how to exploit them. So buckle up, grab your
+            soldering iron, and get ready to haxor some IoT devices!
           </p>
 
           <h3>Here are a list of skills you can add to your tool belt:</h3>
@@ -75,143 +75,151 @@
         </section>
       </article>
 
-      <section id="signup" class="section-temp">
-        <h2 id="signup-title">Sign up for the Workshop</h2>
-        <form action="">
-          <fieldset>
-            <legend>Your Info&#40;&#42; required&#41;</legend>
-            <label for="first_name" class="signup-info">* First Name</label>
-            <input type="text" name="first_name" value="" required /><br />
-
-            <label for="last_name" class="signup-info">* Last Name</label>
-            <input type="text" name="last_name" value="" required /><br />
-
-            <label for="email" class="signup-info">* Email</label>
-            <input type="email" name="email" value="" required /><br />
-
-            <label for="phone" class="signup-info">Phone Number</label>
-            <input type="tel" name="phone" value="" /><br />
-
-            <label for="dob" class="signup-info">Date of Birth</label>
-            <input type="date" name="dob" value="" /><br />
-          </fieldset>
-          <br />
-
-          <fieldset>
-            <legend>Additional Info</legend>
-            <label for="hear_about">How did you hear about us?</label><br />
-            <select name="hear_about">
-              <option value="social_media">Social Media</option>
-              <option value="friend">Friend</option>
-              <option value="advertisement">Web Search</option>
-              <option value="other">
-                Cause I pwned your server. Why else&#63;
-              </option></select
-            ><br />
-            <br />
-
+      <article>
+        <section id="signup" class="section-temp">
+          <h2 id="signup-title">Sign up for the Workshop</h2>
+          <form action="">
             <fieldset>
-              <legend>Ticket type</legend>
-              <label for="ticket">General</label>
-              <input type="radio" name="ticket" value="" />
+              <legend>Your Info&#40;&#42; required&#41;</legend>
+              <label for="first_name" class="signup-info">* First Name</label>
+              <input type="text" name="first_name" value="" required /><br />
 
-              <label for="ticket">VIP</label>
-              <input type="radio" name="ticket" value="" />
+              <label for="last_name" class="signup-info">* Last Name</label>
+              <input type="text" name="last_name" value="" required /><br />
 
-              <label for="ticket">Student</label>
-              <input type="radio" name="ticket" value="" />
+              <label for="email" class="signup-info">* Email</label>
+              <input type="email" name="email" value="" required /><br />
+
+              <label for="phone" class="signup-info">Phone Number</label>
+              <input type="tel" name="phone" value="" /><br />
+
+              <label for="dob" class="signup-info">Date of Birth</label>
+              <input type="date" name="dob" value="" /><br />
             </fieldset>
             <br />
 
-            <label for="feedback"
-              >Questions or comments&#63; Let us know&#33;</label
-            ><br />
-            <textarea
-              name="feedback"
-              rows="5"
-              cols="90"
-              placeholder="Enter feedback here..."
-            ></textarea>
-          </fieldset>
+            <fieldset>
+              <legend>Additional Info</legend>
+              <label for="hear_about">How did you hear about us?</label><br />
+              <select name="hear_about">
+                <option value="social_media">Social Media</option>
+                <option value="friend">Friend</option>
+                <option value="advertisement">Web Search</option>
+                <option value="other">
+                  Cause I pwned your server. Why else&#63;
+                </option></select
+              ><br />
+              <br />
 
-          <button type="submit">Submit</button>
-          <button type="reset">Reset</button>
-        </form>
-      </section>
+              <fieldset>
+                <legend>Ticket type</legend>
+                <label for="ticket">General</label>
+                <input type="radio" name="ticket" value="" />
 
-      <section id="calendar" class="section-temp">
-        <h2 id="cal-header">Upcoming Events</h2>
+                <label for="ticket">VIP</label>
+                <input type="radio" name="ticket" value="" />
 
-        <table id="cal-table">
-          <caption>
-            <b>Dates and Times for October</b>
-          </caption>
+                <label for="ticket">Student</label>
+                <input type="radio" name="ticket" value="" />
+              </fieldset>
+              <br />
 
-          <thead>
-            <tr>
-              <th scope="col">Sun</th>
-              <th scope="col">Mon</th>
-              <th scope="col">Tue</th>
-              <th scope="col">Wed</th>
-              <th scope="col">Thu</th>
-              <th scope="col">Fri</th>
-              <th scope="col">Sat</th>
-            </tr>
-          </thead>
+              <label for="feedback"
+                >Questions or comments&#63; Let us know&#33;</label
+              ><br />
+              <textarea
+                name="feedback"
+                rows="5"
+                cols="90"
+                placeholder="Enter feedback here..."
+              ></textarea>
+            </fieldset>
 
-          <tbody>
-            <tr>
-              <td scope="row"></td>
-              <td scope="row"></td>
-              <td scope="row"></td>
-              <td scope="row">1</td>
-              <td scope="row">2</td>
-              <td scope="row">3</td>
-              <td scope="row">4<br /><small>7pm: Finding UART</small></td>
-            </tr>
+            <button type="submit" aria-label="submit form button">
+              Submit
+            </button>
+            <button type="reset" aria-label="reset from button">Reset</button>
+          </form>
+        </section>
+      </article>
 
-            <tr>
-              <td scope="row">5</td>
-              <td scope="row">6</td>
-              <td scope="row">7</td>
-              <td scope="row">8<br /><small>7pm: Learn to Solder</small></td>
-              <td scope="row">9</td>
-              <td scope="row">10</td>
-              <td scope="row">11</td>
-            </tr>
+      <article>
+        <section id="calendar" class="section-temp">
+          <h2 id="cal-header">Upcoming Events</h2>
 
-            <tr>
-              <td scope="row">12</td>
-              <td scope="row">13</td>
-              <td scope="row">14</td>
-              <td scope="row">15</td>
-              <td scope="row">16</td>
-              <td scope="row">17<br /><small>7pm: Dumping Firmware</small></td>
-              <td scope="row">18</td>
-            </tr>
+          <table id="cal-table">
+            <caption>
+              <b>Dates and Times for October</b>
+            </caption>
 
-            <tr>
-              <td scope="row">19</td>
-              <td scope="row">20<br /><small>7pm: Hacking UPNP</small></td>
-              <td scope="row">21</td>
-              <td scope="row">22</td>
-              <td scope="row">23</td>
-              <td scope="row">24</td>
-              <td scope="row">25</td>
-            </tr>
+            <thead>
+              <tr>
+                <th scope="col">Sun</th>
+                <th scope="col">Mon</th>
+                <th scope="col">Tue</th>
+                <th scope="col">Wed</th>
+                <th scope="col">Thu</th>
+                <th scope="col">Fri</th>
+                <th scope="col">Sat</th>
+              </tr>
+            </thead>
 
-            <tr>
-              <td scope="row">26</td>
-              <td scope="row">27</td>
-              <td scope="row">28</td>
-              <td scope="row">29</td>
-              <td scope="row">30</td>
-              <td scope="row">30</td>
-              <td scope="row">1<br /><small>7pm: Finding JTAG </small></td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+            <tbody>
+              <tr>
+                <td scope="row"></td>
+                <td scope="row"></td>
+                <td scope="row"></td>
+                <td scope="row">1</td>
+                <td scope="row">2</td>
+                <td scope="row">3</td>
+                <td scope="row">4<br /><small>7pm: Finding UART</small></td>
+              </tr>
+
+              <tr>
+                <td scope="row">5</td>
+                <td scope="row">6</td>
+                <td scope="row">7</td>
+                <td scope="row">8<br /><small>7pm: Learn to Solder</small></td>
+                <td scope="row">9</td>
+                <td scope="row">10</td>
+                <td scope="row">11</td>
+              </tr>
+
+              <tr>
+                <td scope="row">12</td>
+                <td scope="row">13</td>
+                <td scope="row">14</td>
+                <td scope="row">15</td>
+                <td scope="row">16</td>
+                <td scope="row">
+                  17<br /><small>7pm: Dumping Firmware</small>
+                </td>
+                <td scope="row">18</td>
+              </tr>
+
+              <tr>
+                <td scope="row">19</td>
+                <td scope="row">20<br /><small>7pm: Hacking UPNP</small></td>
+                <td scope="row">21</td>
+                <td scope="row">22</td>
+                <td scope="row">23</td>
+                <td scope="row">24</td>
+                <td scope="row">25</td>
+              </tr>
+
+              <tr>
+                <td scope="row">26</td>
+                <td scope="row">27</td>
+                <td scope="row">28</td>
+                <td scope="row">29</td>
+                <td scope="row">30</td>
+                <td scope="row">30</td>
+                <td scope="row">1<br /><small>7pm: Finding JTAG </small></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </article>
     </main>
 
     <footer id="contact">
