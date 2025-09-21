@@ -36,8 +36,6 @@ legend {
   font-style: normal;
 }
 
-label {
-}
 input {
   display: inline-block;
   background-color: #96f2ad;
@@ -50,6 +48,15 @@ select {
 fieldset {
   border-color: black;
 }
+
+button {
+  background-color: #167818;
+  color: white;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* fonts */
 .saira-stencil-one-regular {
   font-family: "Saira Stencil One", sans-serif;
@@ -61,6 +68,10 @@ fieldset {
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+textarea {
+  background-color: #96f2ad;
 }
 
 /* Classes */
@@ -121,4 +132,9 @@ fieldset {
   float: left;
   width: 140px;
   text-align: left;
+}
+
+input[type="radio"] {
+  accent-color: green;
+  background-color: blue;
 }
