@@ -187,6 +187,10 @@ td {
   padding-top: 20px;
 }
 
+small {
+  color: #27d22a;
+}
+
 /* Footer Section */
 footer {
   font-family: "Audiowide", sans-serif;
