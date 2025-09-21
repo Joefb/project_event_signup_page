@@ -1,8 +1,49 @@
+/* Global rules */
 body {
-  background-color: #2a1c1c;
+  background-color: #073f15;
   color: white;
 }
 
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+a {
+  color: #27d22a;
+  margin-left: 10px;
+}
+
+p {
+  color:;
+}
+
+ul {
+  margin-top: 0px;
+}
+
+h3 {
+  margin-bottom: 0px;
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #27d22a;
+}
+
+/* fonts */
+.saira-stencil-one-regular {
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Header Section */
 #header {
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
@@ -26,13 +67,24 @@ body {
   display: inline;
 }
 
-.content {
-  max-width: 1000px;
-  margin: auto;
+/* Event Section */
+#event {
+  background-color: #402a2a;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #167818;
 }
 
-a {
-  color: white;
+#about-header {
+  margin-top: 0px;
+  padding-top: 20px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #27d22a;
-  margin-left: 10px;
+}
+
+#event-description {
+  margin-top: 0px;
 }
