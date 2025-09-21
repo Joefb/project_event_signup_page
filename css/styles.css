@@ -90,6 +90,7 @@ textarea {
   font-weight: 400;
   font-style: normal;
   color: #167818;
+  border-radius: 10px 10px / 10px 10px;
 }
 
 /* Header Section */
