@@ -138,3 +138,23 @@ input[type="radio"] {
   accent-color: green;
   background-color: blue;
 }
+
+/* Calendar Section */
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+td {
+  width: 25%;
+}
+
+#cal-header {
+  color: #27d22a;
+}
