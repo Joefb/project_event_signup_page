@@ -1,6 +1,7 @@
 /* Global rules */
 body {
   background: url("../assets/background.jpg") no-repeat center;
+  margin-top: auto;
 }
 
 .content {
@@ -71,16 +72,6 @@ button:hover {
   cursor: pointer;
 }
 
-/* .event-image { */
-/*   max-width: 45%; */
-/*   height: 300px; */
-/*   display: inline-block; */
-/*   vertical-align: top; */
-/*   margin: 0 40px; */
-/*   object-fit: cover; */
-/*   border-radius: 10px; */
-/* } */
-
 /* fonts */
 .saira-stencil-one-regular {
   font-family: "Saira Stencil One", sans-serif;
@@ -100,7 +91,6 @@ textarea {
 }
 
 /* Classes */
-
 .section-temp {
   background-color: #402a2a;
   font-family: "Audiowide", sans-serif;
@@ -112,14 +102,7 @@ textarea {
   margin-bottom: 20px;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 /* Header Section */
-
 #header {
   width: 80%;
   text-align: center;
@@ -145,34 +128,6 @@ textarea {
 #header-title {
   font-size: 80px;
 }
-
-/* .hero-info { */
-/*   width: 90%; */
-/*   height: 100%; */
-/*   max-width: 1000px; */
-/*   margin: 0 auto; */
-/*   display: flex; */
-/* } */
-/* #header { */
-/*   font-family: "Audiowide", sans-serif; */
-/*   font-weight: 400; */
-/*   font-style: normal; */
-/*   position: relative; */
-/*   padding-bottom: 5%; */
-/*   max-width: 1000px; */
-/*   margin: auto; */
-/*   text-align: center; */
-/* } */
-/**/
-/* #header-title { */
-/*   font-size: 50px; */
-/*   color: #27d22a; */
-/*   margin-bottom: 0%; */
-/* } */
-/**/
-/* #header-nav { */
-/*   display: inline; */
-/* } */
 
 /* About Workshop sectios  */
 #about-header {
