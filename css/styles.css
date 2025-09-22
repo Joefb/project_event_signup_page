@@ -176,14 +176,11 @@ textarea {
   position: relative;
 }
 
-input[type="radio"] {
-  accent-color: green;
-}
 #user-info {
   display: inline-block;
 }
 
-#signup-img-div {
+#signup-image-div {
   position: absolute;
   left: 60%;
   right: 40%;
