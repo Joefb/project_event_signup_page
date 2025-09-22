@@ -130,14 +130,29 @@ textarea {
   width: 100%;
   height: 60vh;
   background:
-    linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.6)),
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
     url("../assets/iot_desk.jpg") no-repeat center / cover;
   color: white;
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #27d22a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+#header-title {
+  font-size: 80px;
+}
+
+/* .hero-info { */
+/*   width: 90%; */
+/*   height: 100%; */
+/*   max-width: 1000px; */
+/*   margin: 0 auto; */
+/*   display: flex; */
+/* } */
 /* #header { */
 /*   font-family: "Audiowide", sans-serif; */
 /*   font-weight: 400; */
@@ -167,6 +182,13 @@ textarea {
   font-weight: 400;
   font-style: normal;
   color: #27d22a;
+}
+
+#event {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 #event-description {
