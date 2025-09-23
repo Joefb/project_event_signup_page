@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>IoT Haxors Workshop</title>
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,18 +14,26 @@
   </head>
   <body>
     <header id="header" class="audiowide-regular">
-      <h1 id="header-title">IoT Haxors Workshop</h1>
-
-      <nav id="header-nav">
-        <a href="#event" aria-label="Go to current workshop section"
-          >Current Workshop</a
-        >
-        <a href="#signup" aria-label="Go to sigh up section">Sign up</a>
-        <a href="#calendar" aria-label="Go to Upcoming workshops section"
-          >Upcoming Workshops</a
-        >
-        <a href="#contact" aria-label="Go to contact us section">Contact Us</a>
-      </nav>
+      <section id="hero-page">
+        <div class="hero-info">
+          <h1 id="header-title">IoT Haxors Workshop</h1>
+          <div id="nav-div">
+            <h2>Always be learning</h2>
+            <nav id="header-nav">
+              <a href="#event" aria-label="Go to current workshop section"
+                >Current Workshop</a
+              >
+              <a href="#signup" aria-label="Go to sigh up section">Sign up</a>
+              <a href="#calendar" aria-label="Go to Upcoming workshops section"
+                >Upcoming Workshops</a
+              >
+              <a href="#contact" aria-label="Go to contact us section"
+                >Contact Us</a
+              >
+            </nav>
+          </div>
+        </div>
+      </section>
     </header>
 
     <main class="content">
@@ -62,24 +70,21 @@
             <li>How to connect to UART using different tools</li>
             <li>How to get a shell.</li>
           </ul>
-          <img
-            src="./assets/iot_desk.jpg"
-            alt="picture of IoT devices on a desk"
-            class="event-image"
-          />
-          <img
-            src="./assets/whoami-root.jpg"
-            alt="picture of laptop with devices on a desk"
-            class="event-image"
-          />
         </section>
       </article>
 
       <article>
         <section id="signup" class="section-temp">
           <h2 id="signup-title">Sign up for the Workshop</h2>
+          <div id="signup-image-div">
+            <img
+              src="./assets/whoami-root.jpg"
+              alt="picture of laptop with devices on a desk"
+              id="signup-image"
+            />
+          </div>
           <form action="">
-            <fieldset>
+            <fieldset id="user-info">
               <legend>Your Info&#40;&#42; required&#41;</legend>
               <label for="first_name" class="signup-info">* First Name</label>
               <input type="text" name="first_name" value="" required /><br />

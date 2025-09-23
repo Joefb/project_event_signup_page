@@ -99,10 +99,14 @@ textarea {
 }
 
 /* Header Section */
+
 #header {
   width: 80%;
   text-align: center;
   margin: auto;
+  position: sticky;
+  top: -200px;
+  z-index: 2;
 }
 
 #hero-page {
@@ -144,14 +148,6 @@ textarea {
 
 #event-description {
   margin-top: 0px;
-}
-
-#event-image {
-  max-width: 100%;
-  height: 400px;
-  display: block;
-  margin: auto;
-  border-radius: 10px;
 }
 
 /* Signup Section  */
